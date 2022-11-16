@@ -1,0 +1,114 @@
+.informacion-general  {
+    margin: 40px auto;
+    width: 1600px;
+    height: 2410px;
+    background-color: white;
+}
+
+
+.segundo-contenedor {
+    background: #2F303A;
+    width: 1600px;
+    height: 300px;
+    left: -5px;
+    top: 80px;
+    padding-bottom: 20%;
+}
+
+.contenido-medio {
+    display: flex;
+    flex-direction: row
+}
+
+.texto-azul {
+    color: #2196F3;
+}
+/* Segundo Contenedor */
+
+
+.titulo-principal {
+    color: #ffffff ;
+    margin-left: 450px ;
+}
+
+
+.solicite-nuestro-servicio {
+    color: #ffffff ;
+    margin-left: 700px ;
+    background-color: #2196F3;
+    border-style: groove;
+    border: 2px solid #2196F3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sesto-contenedor {
+    
+}
+
+display: flex;
+flex-direction: row
+
+
+
+
+position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 261px;
+    height: 50px;
+    left: 665px;
+    top: 600px;
+    border-radius: 4px;
+    background-color: #2196F3;
+    color: white;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 261px;
+    height: 50px;
+    left: 665px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+    width: 197px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    flex: none;
+    display: flex;
+
+
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    margin-top: 40px;
+    padding: 40px;
+    letter-spacing: 0.08em;
+
+
+
+     display: flex;
+    align-items: center;
+    height: 50px;
+    left: 665px;
+    top: 600px;
+    border-radius: 4px;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 720px;
