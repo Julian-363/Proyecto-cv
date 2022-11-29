@@ -112,3 +112,55 @@ position: absolute;
     background-color: #2196F3;
     color: white;
     padding: 10px 720px;
+
+
+
+
+
+    .contenedor-superior {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .logo-principal {
+        margin-top: 25px;
+        margin-left: 40px;
+        color: #2196F3;
+        font-size: 45px;
+    
+    }
+    
+    .estudio {
+        font-family: 'Roboto';
+        margin: 50px;
+        color: #212121;
+    }
+    
+    .Portafolio {
+        font-family: 'Roboto';
+        margin-top: 50px;
+        color: #212121;
+    }
+    
+    
+    .Contactos {
+        font-family: 'Roboto';
+        margin-top: 50px;
+        margin-left: 45px;
+        color: #212121;
+    }
+    
+    .enlaces-de-contacto-mail {
+        font-family: 'Roboto';
+        margin-top: 50px;
+        margin-left: 500px;
+        color: #2196F3;
+    }
+    
+    .enlaces-de-contacto-tel {
+        font-family: 'Roboto';
+        margin-top: 50px;
+        margin-left: 50px;
+        color: #2196F3;
+    }
+    

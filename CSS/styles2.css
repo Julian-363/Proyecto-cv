@@ -2,12 +2,14 @@ body {
     background-color: rgb(190, 190, 190);
     padding: 0;
     margin: 0;
-    font-family: 'Raleway', 'roboto' ,sans-serif, 'arial';
+    font-family: 'prettier', 'Raleway', 'roboto' ,sans-serif, 'arial';
 }
 
 /* contenedor general */
 
+
 .informacion-general  {
+    position: relative;
     margin: 40px auto;
     width: 1600px;
     height: 2410px;
@@ -16,51 +18,93 @@ body {
 
 /* contenedor superior */
 
+header,footer{
+    position: relative;
+   
+}
+
+.nav li a {
+    text-decoration: none;
+} 
+
+.nav li a:hover {
+    color: #2196F3;
+}
+
+.navegadores {
+    color: #212121;
+}
+
 .contenedor-superior {
-    display: flex;
-    flex-direction: row;
+    margin-left: 100px;
+    padding-top: 20px;
+    display: block;
 }
 
-.logo-principal {
-    margin-top: 25px;
-    margin-left: 40px;
+ul, li {
+    font-weight: bold;
+    margin: 30px;
+    list-style: none;
+    display:inline-block
+    
+}
+
+.nav > li {
+    
+   
+}
+
+.logo-principal { 
+    font-weight: bold;
     color: #2196F3;
-    font-size: 45px;
-
+    font-size: 35px;
 }
 
-.estudio {
-    font-family: 'Roboto';
-    color: #2196F3;
-    margin: 50px;
+/*
+
+
+
+ 
+header {
+    
 }
 
-.Portafolio {
-    margin-top: 50px;
+
+
+.nav {
+    position: absolute;
+    width: 100%;
 }
 
-
-.Contactos {
-    margin-top: 50px;
-    margin-left: 45px;
+.nav a {
+    position: relative;
+    left: 25%;
+    top: 50px;
+    text-decoration: none;
+    margin-right: 60px;
 }
 
 .enlaces-de-contacto-mail {
+    font-family: 'Roboto';
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 200px;
+    color: #2196F3;
 }
 
 .enlaces-de-contacto-tel {
+    font-family: 'Roboto';
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 10px;
+    color: #2196F3;
 }
-
+*/
 
 /* contenedor de titulo */
 
 .segundo-contenedor {
+    position: relative;
     padding-block: 180px;
-    background: #2F303A;
+    /* background: #2F303A; */
 }
 
 .titulo-principal {
@@ -71,8 +115,9 @@ body {
     color:white;
 }
 
-.solicite-nuestro-servicio { 
-    display:inline-flex;
+
+.Solicite-nuestro-servicio{
+    display: inline-block;
     align-items:center;
     width: 280px;
     height: 50px;
@@ -81,7 +126,10 @@ body {
     color: white;
     margin-left: 660px;
     justify-content: center;
+    cursor: pointer;
 }
+
+
 /* contenedor de desenlace */
 
 .contenido-medio {
@@ -192,19 +240,22 @@ body {
 
 /* parte baja */
 
-.parte-baja {
-    padding-top: 10px;
-    padding-bottom: 12px;
-    background: #2F303A;
+footer {
+    left: 70px;
 }
- 
+
+footer ul {
+    position: relative;
+    left: -30px;
+}
+
 .logo-principal-2 {
-    margin-top: 25px;
     margin-left: 40px;
     color: #2196F3;
     font-size: 45px;
 }
 
 .fin {
-    margin-left: 100px;
+    background-color: #2F303A;
+    padding: 32px;
 }
